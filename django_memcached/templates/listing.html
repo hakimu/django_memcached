@@ -1,0 +1,17 @@
+<html>
+	<body>
+		<p>The data base entries are </p>{% for album in album_listing %}
+		<p>{{ album.album_text }}</p>
+		<p>{{ album.company_text }}</p>
+		<p>{{ album.release_date }}</p>
+		{% endfor %}
+
+		<p>Today is {{ current_time }}</p>
+		<p>The artist are</p>
+		{% for artist in artist_listing %}
+		<p>{{ artist.album_id }}</p>
+		<p>{{ artist.artist_text }}</p>
+		{% endfor %}
+	</body>
+
+</html>
