@@ -20,9 +20,18 @@ client = memcache.Client([('127.0.0.1', 11211)])
 # print "Counter was decremented on the server by 1, now it's %s" 
 # client.get("counter")
 
-data = {"some_key1": "value1",
-"some_key2":"value2"}
-client.set_multi(data, time=15, key_prefix="pfx_")
-print "saved the dict with prefix pfx_"
-print "getting one key: %s" % client.get("pfx_some_key1")
-print "Getting all values: %s" % client.get_multi(["some_key1", "some_key2"], key_prefix="prx_")
+@newrelic.agent.background_task()
+def my_mem():
+	data = {"some_key1":"value1", "some_key2":"value2"}
+	client.set_multi(data, time=15, key_prefix="pfx_")
+	print "saved with... %s" % client.get("pfx_some_key1")
+	print "getting one key a %s" % client.get_multi(["some_key1", "some_key2"], key_prefix="prx_")
+
+# data = {"some_key1": "value1",
+# "some_key2":"value2"}
+# client.set_multi(data, time=15, key_prefix="pfx_")
+# print "saved the dict with prefix pfx_"
+# print "getting one key: %s" % client.get("pfx_some_key1")
+# print "Getting all values: %s" % client.get_multi(["some_key1", "some_key2"], key_prefix="prx_")
+
+my_mem()

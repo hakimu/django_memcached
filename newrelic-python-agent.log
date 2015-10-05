@@ -7216,3 +7216,74 @@
 2014-10-13 08:06:15,657 (17224/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
 2014-10-13 08:12:01,946 (17224/Dummy-9) newrelic.core.agent INFO - New Relic Python Agent Shutdown
 2014-10-13 08:12:02,480 (17224/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=17224, and agent_run_id=1536459580
+2015-02-13 05:15:05,527 (54600/Thread-1) newrelic.core.agent INFO - New Relic Python Agent (2.32.0.28)
+2015-02-13 05:15:07,448 (54600/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=54600, redirect_host=u'collector-111.newrelic.com' and agent_run_id=1896830623, in 1.28 seconds.
+2015-02-13 05:15:07,448 (54600/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-02-13 05:27:40,502 (54600/Dummy-12) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-02-13 05:27:41,200 (54600/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=54600, and agent_run_id=1896830623
+2015-02-13 05:32:39,321 (54731/Thread-1) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-02-13 05:32:40,698 (54731/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=54731, redirect_host=u'collector-111.newrelic.com' and agent_run_id=u'17372156766723891', in 0.81 seconds.
+2015-02-13 05:32:40,698 (54731/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-02-13 05:39:39,710 (54731/NR-Harvest-Thread) newrelic.core.data_collector INFO - An automatic internal agent restart has been requested by the data collector for the application where the agent run was u'17372156766723891'. The reason given for the forced restart is u'***Restart agent on stale config (real-agent) launch=2015-02-13 05:32:40 config=2015-02-13 05:37:27'.
+2015-02-13 05:39:39,792 (54731/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=54731, and agent_run_id=u'17372156766723891'
+2015-02-13 05:39:41,099 (54731/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=54731, redirect_host=u'collector-111.newrelic.com' and agent_run_id=u'17372156766742654', in 0.85 seconds.
+2015-02-13 05:39:41,099 (54731/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-02-13 05:40:06,382 (54731/Dummy-47) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-02-13 05:40:06,674 (54731/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=54731, and agent_run_id=u'17372156766742654'
+2015-10-05 07:02:58,372 (74410/Thread-1) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 07:02:59,797 (74410/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74410, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639549959', in 0.75 seconds.
+2015-10-05 07:02:59,797 (74410/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:25:04,355 (74917/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:25:04,363 (74917/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:25:05,848 (74918/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:25:05,851 (74918/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:26:12,940 (74933/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:26:12,943 (74933/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:26:19,990 (74934/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:26:19,993 (74934/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:26:37,339 (74935/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:26:37,342 (74935/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:26:40,795 (74937/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:26:40,797 (74937/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:26:46,192 (74938/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:26:46,195 (74938/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:27:33,145 (74941/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:27:34,276 (74941/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74941, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639604891', in 0.73 seconds.
+2015-10-05 00:27:34,276 (74941/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:27:34,752 (74941/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:27:35,165 (74941/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74941, and agent_run_id=u'17372155639604891'
+2015-10-05 00:27:38,682 (74949/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:27:39,715 (74949/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74949, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639605067', in 0.63 seconds.
+2015-10-05 00:27:39,715 (74949/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:27:40,185 (74949/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:27:40,820 (74949/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74949, and agent_run_id=u'17372155639605067'
+2015-10-05 00:27:51,719 (74956/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:27:52,749 (74956/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74956, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639605373', in 0.62 seconds.
+2015-10-05 00:27:52,749 (74956/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:27:53,228 (74956/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:27:53,854 (74956/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74956, and agent_run_id=u'17372155639605373'
+2015-10-05 00:27:58,921 (74965/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:27:59,946 (74965/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74965, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639605573', in 0.63 seconds.
+2015-10-05 00:27:59,946 (74965/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:28:00,429 (74965/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:28:00,839 (74965/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74965, and agent_run_id=u'17372155639605573'
+2015-10-05 00:28:39,855 (74977/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:28:40,869 (74977/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74977, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639607171', in 0.62 seconds.
+2015-10-05 00:28:40,869 (74977/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:28:41,313 (74977/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:28:41,938 (74977/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74977, and agent_run_id=u'17372155639607171'
+2015-10-05 00:28:43,692 (74984/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:28:44,698 (74984/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74984, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639607257', in 0.61 seconds.
+2015-10-05 00:28:44,698 (74984/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:28:45,155 (74984/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:28:45,807 (74984/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74984, and agent_run_id=u'17372155639607257'
+2015-10-05 00:28:47,221 (74991/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:28:48,247 (74991/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74991, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639607365', in 0.63 seconds.
+2015-10-05 00:28:48,247 (74991/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:28:48,727 (74991/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:28:49,353 (74991/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74991, and agent_run_id=u'17372155639607365'
+2015-10-05 00:29:56,645 (74999/MainThread) newrelic.core.agent INFO - New Relic Python Agent (2.44.0.36)
+2015-10-05 00:29:57,664 (74999/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Successfully registered New Relic Python agent where app_name='Django Memcached', pid=74999, redirect_host=u'collector-171.newrelic.com' and agent_run_id=u'17372155639609508', in 0.62 seconds.
+2015-10-05 00:29:57,664 (74999/NR-Activate-Session/Django Memcached) newrelic.core.data_collector INFO - Reporting to: https://rpm.newrelic.com/accounts/527930/applications/4044769
+2015-10-05 00:29:58,153 (74999/Dummy-1) newrelic.core.agent INFO - New Relic Python Agent Shutdown
+2015-10-05 00:29:58,565 (74999/NR-Harvest-Thread) newrelic.core.data_collector INFO - Successfully shutdown New Relic Python agent where app_name='Django Memcached', pid=74999, and agent_run_id=u'17372155639609508'
